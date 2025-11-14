@@ -3,41 +3,9 @@
 import Link from 'next/link';
 
 export default function Home() {
-  const handleCTAClick = () => {
-    // CTA 버튼 클릭 로그
-    console.log('[CTA] Call to Action 버튼이 클릭되었습니다.', {
-      timestamp: new Date().toISOString(),
-      action: 'cta_button_click',
-      variant: 'control',
-    });
-    
-    // 여기에 실제 액션을 추가할 수 있습니다
-    alert('CTA 버튼이 클릭되었습니다!');
-  };
-
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm">
-        <div className="mb-4 text-center text-sm text-gray-500">
-          Control 버전 (기본)
-        </div>
-        <h1 className="text-4xl font-bold text-center mb-8">
-          Next.js 프로젝트가 성공적으로 설치되었습니다! 🎉
-        </h1>
-        <p className="text-center text-gray-600 mb-8">
-          개발 서버를 실행하려면 <code className="bg-gray-100 px-2 py-1 rounded">npm run dev</code> 명령어를 사용하세요.
-        </p>
-        
-        {/* Call to Action 버튼 */}
-        <div className="flex justify-center mt-8">
-          <button
-            onClick={handleCTAClick}
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg shadow-lg transition-all duration-200 transform hover:scale-105 active:scale-95 text-lg"
-          >
-            지금 시작하기
-          </button>
-        </div>
-
         {/* A/B 테스트 Variant 링크 */}
         <div className="mt-16 pt-8 border-t border-gray-200">
           <h2 className="text-2xl font-bold text-center mb-6">A/B 테스트 Variant 페이지</h2>

@@ -196,7 +196,7 @@ export default function VariantB() {
                   <div className="text-sm text-gray-500">스타트업 CEO</div>
                 </div>
               </div>
-              <p className="text-gray-600">"5분 만에 시작했고, 첫 달에 고객이 3배 늘었어요!"</p>
+              <p className="text-gray-600">&quot;5분 만에 시작했고, 첫 달에 고객이 3배 늘었어요!&quot;</p>
               <div className="text-yellow-400 mt-2">⭐⭐⭐⭐⭐</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
@@ -209,7 +209,7 @@ export default function VariantB() {
                   <div className="text-sm text-gray-500">마케팅 디렉터</div>
                 </div>
               </div>
-              <p className="text-gray-600">"무료 체험으로 모든 기능을 테스트할 수 있어서 좋았어요."</p>
+              <p className="text-gray-600">&quot;무료 체험으로 모든 기능을 테스트할 수 있어서 좋았어요.&quot;</p>
               <div className="text-yellow-400 mt-2">⭐⭐⭐⭐⭐</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
@@ -222,7 +222,7 @@ export default function VariantB() {
                   <div className="text-sm text-gray-500">비즈니스 오너</div>
                 </div>
               </div>
-              <p className="text-gray-600">"비용 대비 효과가 정말 좋아요. 강력 추천합니다!"</p>
+              <p className="text-gray-600">&quot;비용 대비 효과가 정말 좋아요. 강력 추천합니다!&quot;</p>
               <div className="text-yellow-400 mt-2">⭐⭐⭐⭐⭐</div>
             </div>
           </div>

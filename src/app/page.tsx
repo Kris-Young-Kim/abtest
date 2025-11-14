@@ -48,7 +48,7 @@ export default function Home() {
             >
               <div className="font-bold text-blue-600 mb-2">Variant 1</div>
               <div className="text-sm text-gray-600">텍스트 변경</div>
-              <div className="text-xs text-gray-500 mt-1">"무료로 시작하기"</div>
+              <div className="text-xs text-gray-500 mt-1">&quot;무료로 시작하기&quot;</div>
             </Link>
             <Link 
               href="/test/variant-2"
